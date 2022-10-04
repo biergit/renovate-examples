@@ -16,5 +16,9 @@ module.exports = {
           "registryUrls": ["https://mynexus/repository/maven-group/"],
           "customRegistrySupport": true
       },
+      {
+        "matchPackageNames": ["org.acme:some-lib"],
+        "allowedVersions": "!/99\\.1\\.147$/"
+      }
     ],
   };
