@@ -21,4 +21,5 @@ module.exports = {
         "allowedVersions": "!/99\\.1\\.147$/"
       }
     ],
+    "ignorePaths": ["**/local-dev/**"],
   };
